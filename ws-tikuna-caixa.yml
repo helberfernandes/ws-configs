@@ -13,7 +13,10 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 3000
 
-
+stores:
+  usuario:
+    ribbon:
+      listOfServers: localhost:9095
 
 spring:
     datasource:
