@@ -21,7 +21,7 @@ stores:
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: 'fabrica'
+        password: 'st1215'
         platform: mysql
         url: jdbc:mysql://localhost/tikuna?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
