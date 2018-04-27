@@ -15,15 +15,15 @@ eureka:
 
 logging:
   level:
-    root: ERROR
-    org.springframework.web: ERROR
-    com.howtodoinjava: DEBUG
-    org.hibernate: ERROR
+    root: ERROR, INFO
+    org.springframework.web: ERROR, INFO
+    com.howtodoinjava: DEBUG, INFO
+    org.hibernate: ERROR, INFO
 
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: 'fabrica'
+        password: 'st1215'
         platform: mysql
         url: jdbc:mysql://localhost/tikuna?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
