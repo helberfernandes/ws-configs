@@ -1,0 +1,16 @@
+server:
+  port: 9091
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: 'st1215'
+        platform: mysql
+        url: jdbc:mysql://localhost/catequese?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        username: root
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        generate-ddl: false
+        hibernate:
+            ddl-auto: update
+        show-sql: true
