@@ -13,13 +13,6 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 3000
 
-logging:
-  level:
-    root: ERROR, INFO
-    org.springframework.web: ERROR, INFO
-    com.howtodoinjava: DEBUG, INFO
-    org.hibernate: ERROR, INFO
-
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
